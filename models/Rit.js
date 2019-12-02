@@ -26,6 +26,6 @@ function validateRit(rit){
         };
         return Joi.validate(rit,schema);
 }
-exports.Fles=Fls;
+exports.Rit=Rit;
 exports.validate=validateRit;
 exports.RitSchema=RitSchema;
