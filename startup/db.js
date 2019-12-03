@@ -8,4 +8,5 @@ module.exports = function() {
   mongoose.connect(db,{useNewUrlParser: true})
     .then(() => winston.info(`Connected to ${db}...`))
     .catch((err)=>winston.info("Failed to connect to db:"+err))
+
 };

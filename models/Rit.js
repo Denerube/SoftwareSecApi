@@ -4,11 +4,11 @@ const mongoose=require("mongoose");
 const RitSchema = new mongoose.Schema({
     From:{
         type:String,
-        required:true
+        required:[true,"From is required"]
     },
     To:{
         type:String,
-        required:true
+        required:[true,"To is required"]
     },
     Time:{
         type:String,
@@ -17,13 +17,15 @@ const RitSchema = new mongoose.Schema({
     }
 });
 let Rit=mongoose.model("Rit",RitSchema);
+
 function validateRit(rit){
     const schema={
         RitId:Joi.objectId(),
-        From:Joi.string(),
-        To:Joi.strict(),
-        Time:Joi.string()
+        From:Joi.string().required(),
+        To:Joi.strict().required(),
+        Time:Joi.string().optional()
         };
+        
         return Joi.validate(rit,schema);
 }
 exports.Rit=Rit;

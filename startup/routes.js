@@ -7,5 +7,5 @@ const rides = require("../routes/rides");
 
 module.exports = function(app) {
   app.use(express.json());
-  app.use("/api/rides",rides); 
+  app.use("/",rides); 
 }
