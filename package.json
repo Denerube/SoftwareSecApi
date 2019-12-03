@@ -1,0 +1,29 @@
+{
+  "name": "softwaresecapi",
+  "version": "1.0.0",
+  "description": "software security api security opdracht",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.13",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denerube/SoftwareSecApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denerube/SoftwareSecApi/issues"
+  },
+  "homepage": "https://github.com/Denerube/SoftwareSecApi#readme"
+}
