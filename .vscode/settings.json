@@ -3,6 +3,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/e3151478-ddeb-4a61-a84f-34795fc95c24/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/softwareSecRidesApi",
-    "appService.deploySubpath": ""
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/e3151478-ddeb-4a61-a84f-34795fc95c24/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/SoftwareSecRidesApi"
 }
